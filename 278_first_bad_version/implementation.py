@@ -18,8 +18,6 @@ class Solution:
             inspect_index = (upper_index+lower_index) // 2
             inspect_value = self.isBadVersion(inspect_index)
             visited[inspect_index] = inspect_value
-            
-            print(lower_index, upper_index, inspect_index, inspect_value)
 
             if inspect_value and not visited[inspect_index-1]:
                 return inspect_index
