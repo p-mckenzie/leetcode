@@ -1,6 +1,5 @@
 class Solution:
     def searchInsert(self, nums, target):
-        
         lower_index = 0
         upper_index = len(nums)-1
         
