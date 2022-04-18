@@ -12,7 +12,7 @@ class TestSolution(object):
 
         assert expected == actual
 
-    def test_example_1(self):
+    def test_example_2(self):
         s = ["H","a","n","n","a","h"]
 
         expected = ["h","a","n","n","a","H"]
